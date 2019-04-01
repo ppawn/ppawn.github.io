@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F03%2F28%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>杂乱无章</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>日记</tag>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[test]]></title>
+    <url>%2F2019%2F03%2F28%2Ftest%2F</url>
+    <content type="text"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem. 1alert(&apos;Hello World!&apos;); 怎么置顶每篇文章增加一个属性top，普通文章设置值为1，置顶文章设置为1以上。title: Hexo增加置顶属性date: 2018-09-14 14:57:57top: 1tags: 博客 Hexo 置顶1234567修改根目录配置文件/_config.yml,top值-1标示根据top值倒序（正序设置为1即可），同样date也是根据创建日期倒序。index_generator:path: ‘’per_page: 10order_by:top: -1date: -1123456 top的值每篇文章都要设置，如果没设置会导致部分排序不正确 *说明（源码解读）hexo置顶功能，也就是指定首页列表的排序，当前默认的是按照创建日期的倒叙，那我怎么才能修改？hexo整个结构就是核心的hexo包+扩展包，生成首页的是扩展插件node_modules/hexo-generator-index中。 从上面截图可以到到hexo.config.index_generator.order_by这个属性是配置index的排序，打开根目录下/_config.yml文件可以看大以下配置 index_generator: path: ‘’ per_page: 10 order_by: -date1234 那么我该怎么修改配置?打开node_modules/hexo-generator-index/lib/generator.js 作者：Pillar_wu来源：CSDN原文：https://blog.csdn.net/adobeid/article/details/82704982版权声明：本文为博主原创文章，转载请附上博文链接！]]></content>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Number one]]></title>
+    <url>%2F2019%2F03%2F24%2Ffirst%2F</url>
+    <content type="text"><![CDATA[##这是我的第一篇文章 #欢迎收看 //就爱上了 w我们]]></content>
+      <categories>
+        <category>杂乱无章</category>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>八卦</tag>
+      </tags>
+  </entry>
+</search>
