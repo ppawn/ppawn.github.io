@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[2019年四月计划]]></title>
+    <url>%2F2019%2F04%2F14%2F2019-04-plan%2F</url>
+    <content type="text"><![CDATA[四月需要完成的目标 需要准备软考和进一步学习java内容,这两步的内容需要细化！ java： 要在深入学习同时，每天需要对先前所学习的内容进行总结 这个月学习各个框架 软考： 细化各个步骤，按照刷题+看原教材的方式进行学习]]></content>
+      <categories>
+        <category>杂乱无章</category>
+      </categories>
+      <tags>
+        <tag>Flag</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[IDEA使用总结1—常用快捷键]]></title>
     <url>%2F2019%2F04%2F12%2Fintellij-idea-01%2F</url>
     <content type="text"><![CDATA[&nbsp;&nbsp;&nbsp;&nbsp;以下是idea的常用快捷键总结，对于快捷键的使用应该是多上手，多用就记住了，不用刻意记住。 IntelliJ IDEA 常用快捷键(共33条）1.搜索任何地方文件名Shift 快速连续按两下 2.导入包，自动修正Alt + Enter 3.新建或者生成代码Alt + Insert 4.选中方法，查看参数信息Ctrl + P 5.弹出当前打开的文件列表Ctrl + E 6.根据0-9之间的数字，打开各个相应的工具窗口//Ctrl + Num 0-9 7.保存文件Ctrl + S 8.打开项目属性配置对话框Ctrl + Shift + Alt + S 9.打开整个IDEA属性配置对话框Ctrl + Shift + S 10.查找当前文件Ctrl + F 11.快速定位到某一行某一列Ctrl + G 12.替换Ctrl + R 13.在路径里寻找Ctrl + Shift + F 14.在路径里替换Ctrl + Shift + R 15.环绕选中代码块，生成注释Ctrl + Alt + T 16.注释代码或者取消注释Ctrl + /或者ctrl + shift + / 17.格式化代码Ctrl + Alt + L 18.优化导入，删除掉没用被使用的导入Ctrl + Alt + O 19.缩进选中的行Tab 20.取消缩进选中的行Shift + Tab 21.将当前行剪切到剪贴板Ctrl + X 22.将当前行复制到剪贴板Ctrl + C 23.从粘贴板复制Ctrl + V 24.重复输入当前行Ctrl + D 25.删除当前行Ctrl + Y 26.开始新的一行Shift + Enter 27.选中的单词或者代码，切换大小写Ctrl + Shift + U 28.返回或者前进最近编辑的地方Ctrl + Alt + ←或者→(按键冲突，我改为Shift + Q) 29.打开变量声明处Ctrl + B或者 Ctrl + 鼠标左键 30.打开类型声明处Ctrl + B 31.插入注释模板Ctrl + J 32.代码提示Ctrl + , 33.补齐代码Ctrl + Shift + Enter 常用的有fori/sout/psvm+Tab即可生成循环、System.out、main方法等boilerplate样板代码 不需要手动保存，idea会自动保存 在类中直接使用ALT+SHIFT+T就可以自动生成对应的Junit方法了]]></content>
